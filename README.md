@@ -1,5 +1,5 @@
 # Detecting Diabetic Retinopathy with Machine Learning
-#### By CaribPixelators
+#### By CaribPixelators (magocoder-yo, codererufu, dandabot2685, zxch246)
 
 This repository contains various files related to the project. *Workshop_Project.ipynb* is the primary Jupyter notebook that we used during development to create the model. *website.py* contains the code for running the Streamlit website (a live demo of the application viewable here: https://detecting-diabetic-retinopathy-caribpixelators.streamlit.app/). *retinamnist_64.npz* is the data file we used from the RetinaMNIST dataset, *CNN_Model.keras* stores the weights and biases of our trained model that can be used to make predictions, *requirements.txt* contains project dependency information, and *.streamlit/config.toml* contains configuration information for the Streamlit web app.
 
