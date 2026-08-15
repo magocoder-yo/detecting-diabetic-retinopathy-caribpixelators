@@ -93,3 +93,5 @@ st.progress(text=f"Chance of having stage 1 of the disease: {str(round(img_probs
 st.progress(text=f"Chance of having stage 2 of the disease: {str(round(img_probs[2]*100, 2))}%", value=float(img_probs[2]))
 st.progress(text=f"Chance of having stage 3 of the disease: {str(round(img_probs[3]*100, 2))}%", value=float(img_probs[3]))
 st.progress(text=f"Chance of having stage 4 of the disease: {str(round(img_probs[4]*100, 2))}%", value=float(img_probs[4]))
+
+st.write("We hope you enjoyed the demo! Want to see our code? Head to our github page: https://github.com/magocoder-yo/detecting-diabetic-retinopathy-caribpixelators")
