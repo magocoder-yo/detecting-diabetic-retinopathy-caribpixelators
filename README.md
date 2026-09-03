@@ -8,3 +8,5 @@ The goal of the project is to detect the various stages of diabetic retinopathy 
 The data used to train the model (*retinamnist_64.npz*) belongs to the MedMNIST dataset (see https://medmnist.com/), obtained from their Zenodo page (see https://zenodo.org/records/10519652/files/retinamnist_64.npz)
 
 The target audience of the project is medical institutions and universities (research & development).
+
+The project is currently a work in progress, it is under active development.
