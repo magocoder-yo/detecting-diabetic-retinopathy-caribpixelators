@@ -9,4 +9,4 @@ The data used to train the model (*retinamnist_64.npz*) belongs to the MedMNIST 
 
 The target audience of the project is medical institutions and universities (research & development).
 
-The project is currently a work in progress, it is under active development. Stay tuned for future updates.
+The project is currently a work in progress, it is under active development. Stay tuned for future updates by us.
