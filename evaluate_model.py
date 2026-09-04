@@ -6,7 +6,7 @@ from sklearn.metrics import accuracy_score
 import tensorflow as tf
 import keras
 
-model = keras.models.load_model("CNN_Model_128p.keras")
+model = keras.models.load_model("CNN_Model.keras")
 
 data = np.load("retinamnist_128.npz")
 
