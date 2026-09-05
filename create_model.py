@@ -100,5 +100,5 @@ print(classification_report(y_test,pred))
 ConfusionMatrixDisplay.from_predictions(y_test,pred,display_labels=encoder.classes_,cmap = 'Blues')
 plt.show()
 
-model.save('CNN_Model_128p_2.keras')
+model.save('CNN_Model.keras')
 print("Model saved successfully.")
