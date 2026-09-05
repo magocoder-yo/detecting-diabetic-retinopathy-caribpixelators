@@ -44,7 +44,7 @@ def disp_img(image_num, dataset):
 
 model = keras.models.load_model('CNN_Model.keras')
 
-data = np.load("retinamnist_64.npz")
+data = np.load("retinamnist_128.npz")
 
 #Data split
 X_train = data["train_images"]
