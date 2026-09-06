@@ -93,6 +93,7 @@ print("Model built successfully.")
 model_loss = pd.DataFrame(model.history.history)
 model_loss.plot()
 plt.show()
+plt.savefig("./model-diagnostics/Model-Loss.png")
 
 pred = np.argmax(model.predict(X_test),axis = 1)
 print(classification_report(y_test,pred))
