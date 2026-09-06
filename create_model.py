@@ -14,6 +14,8 @@ from tensorflow.keras.layers import Dense, Activation, Dropout, Conv2D, MaxPooli
 from tensorflow.keras.callbacks import EarlyStopping
 from tensorflow.keras.utils import to_categorical
 
+import torch
+
 print("Imports completed successfully.")
 
 data = np.load("retinamnist_128.npz")
