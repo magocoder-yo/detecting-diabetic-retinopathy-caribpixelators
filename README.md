@@ -14,3 +14,10 @@ The target audience of the project is medical institutions and universities (res
 The project is currently a work in progress, it is under active development. Stay tuned for future updates by us.
 
 Thank you for supporting us.
+
+### Installation Instructions
+When in the root of the project, run the following:
+```
+pip install -r requirements.txt
+pip install torch==2.13.0 torchvision==0.28.0 --index-url https://download.pytorch.org/whl/cu132
+```
